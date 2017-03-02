@@ -1,0 +1,15 @@
+<h1> Journal details </h1>
+   <a [routerLink]="['']"> Back to list </a>
+
+   <div *ngIf="journal">
+       <h2> {{ journal.title }}</h2>
+       <h3> {{ journal.content }} </h3>
+       <h3> {{ journal.date }} </h3>
+
+
+       <!-- <div *ngIf="phone.specs.length">
+         <h4> Features </h4>
+         <ul>
+           <li *ngFor="let spec of phone.specs"> {{ spec&nbsp;}} </li>
+         </ul>
+     </div> -->
